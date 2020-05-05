@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://blog.boydream.top</id>
+    <id>https://BlackDog-HaHaHa.github.io</id>
     <title>Boy&apos;s Dream</title>
-    <updated>2020-05-05T02:00:32.539Z</updated>
+    <updated>2020-05-05T03:12:01.868Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://blog.boydream.top"/>
-    <link rel="self" href="https://blog.boydream.top/atom.xml"/>
+    <link rel="alternate" href="https://BlackDog-HaHaHa.github.io"/>
+    <link rel="self" href="https://BlackDog-HaHaHa.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://blog.boydream.top/images/avatar.png</logo>
-    <icon>https://blog.boydream.top/favicon.ico</icon>
+    <logo>https://BlackDog-HaHaHa.github.io/images/avatar.png</logo>
+    <icon>https://BlackDog-HaHaHa.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Boy&apos;s Dream</rights>
     <entry>
         <title type="html"><![CDATA[阿里云 - 云监控]]></title>
-        <id>https://blog.boydream.top/post/7shtFWmnz/</id>
-        <link href="https://blog.boydream.top/post/7shtFWmnz/">
+        <id>https://BlackDog-HaHaHa.github.io/post/7shtFWmnz/</id>
+        <link href="https://BlackDog-HaHaHa.github.io/post/7shtFWmnz/">
         </link>
         <updated>2020-05-05T01:27:56.000Z</updated>
         <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://drive01.vpscloud.club/api/files/onedrive/%E5%9B%BE%E5%BA%8A/chrome_wnaXgd5EBv.png" alt="image" loading="lazy"></figure>
@@ -26,8 +26,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[新开始——专注于写文]]></title>
-        <id>https://blog.boydream.top/post/t-9AkWsU7/</id>
-        <link href="https://blog.boydream.top/post/t-9AkWsU7/">
+        <id>https://BlackDog-HaHaHa.github.io/post/t-9AkWsU7/</id>
+        <link href="https://BlackDog-HaHaHa.github.io/post/t-9AkWsU7/">
         </link>
         <updated>2020-05-04T22:25:54.000Z</updated>
         <content type="html"><![CDATA[<h2 id="1-gridea的简单介绍">1、Gridea的简单介绍</h2>
@@ -42,8 +42,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://blog.boydream.top/post/hello-gridea/</id>
-        <link href="https://blog.boydream.top/post/hello-gridea/">
+        <id>https://BlackDog-HaHaHa.github.io/post/hello-gridea/</id>
+        <link href="https://BlackDog-HaHaHa.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
