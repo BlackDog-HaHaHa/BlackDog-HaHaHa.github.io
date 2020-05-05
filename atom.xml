@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.boydream.top</id>
     <title>Boy&apos;s Dream</title>
-    <updated>2020-05-05T03:35:31.896Z</updated>
+    <updated>2020-05-05T14:04:46.095Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.boydream.top"/>
     <link rel="self" href="https://blog.boydream.top/atom.xml"/>
@@ -30,8 +30,12 @@
         <link href="https://blog.boydream.top/post/t-9AkWsU7/">
         </link>
         <updated>2020-05-04T22:25:54.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="1-gridea的简单介绍">1、Gridea的简单介绍</h2>
+<p>想看介绍就去<a href="https://gridea.dev/">官网</a>看，我复制粘贴很麻烦的。</p>
+]]></summary>
         <content type="html"><![CDATA[<h2 id="1-gridea的简单介绍">1、Gridea的简单介绍</h2>
 <p>想看介绍就去<a href="https://gridea.dev/">官网</a>看，我复制粘贴很麻烦的。</p>
+<!-- more -->
 <h2 id="2-使用体验">2、使用体验</h2>
 <p>就我个人的使用体验来看，确实很nice。和其他博客软件（比如wordpress）相比，Gridea非常的轻量，简单得就像个记事本，它确实也就是个带git功能的记事本，外加亿点点功能。</p>
 <p>妈的，早知道就不充映像笔记的会员了。。。</p>
