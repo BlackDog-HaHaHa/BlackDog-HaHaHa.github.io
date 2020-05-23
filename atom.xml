@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.boydream.top</id>
     <title>Boy&apos;s Dream</title>
-    <updated>2020-05-05T14:09:18.357Z</updated>
+    <updated>2020-05-23T12:54:23.308Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.boydream.top"/>
     <link rel="self" href="https://blog.boydream.top/atom.xml"/>
@@ -11,72 +11,20 @@
     <icon>https://blog.boydream.top/favicon.ico</icon>
     <rights>All rights reserved 2020, Boy&apos;s Dream</rights>
     <entry>
-        <title type="html"><![CDATA[阿里云 - 云监控]]></title>
-        <id>https://blog.boydream.top/post/7shtFWmnz/</id>
-        <link href="https://blog.boydream.top/post/7shtFWmnz/">
+        <title type="html"><![CDATA[21岁的我，是时候做出改变了]]></title>
+        <id>https://blog.boydream.top/post/21-sui-de-wo-shi-shi-hou-zuo-chu-gai-bian-liao/</id>
+        <link href="https://blog.boydream.top/post/21-sui-de-wo-shi-shi-hou-zuo-chu-gai-bian-liao/">
         </link>
-        <updated>2020-05-05T01:27:56.000Z</updated>
-        <summary type="html"><![CDATA[<p>利用云监控来实时感受小鸡的状态，哦~</p>
+        <updated>2020-05-23T12:37:24.000Z</updated>
+        <summary type="html"><![CDATA[<p>夜里想好千条路，早上起来走原路。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>利用云监控来实时感受小鸡的状态，哦~</p>
+        <content type="html"><![CDATA[<p>夜里想好千条路，早上起来走原路。</p>
 <!-- more -->
-<h2 id="1-需求">1、需求</h2>
-<p>我目前用来访问Google的主力VPS就是阿里云国际的新加坡ECS，但我也比较担心流量用超了，毕竟阿里云一向有着“套路云”的外号。流量用超后直接就转按量付费了，按量付费贵得一批，如果你是PayPal支付，还得交15刀的预授权。穷！用不起！</p>
-<h2 id="2-规则">2、规则</h2>
-<figure data-type="image" tabindex="1"><img src="https://drive01.vpscloud.club/api/files/onedrive/%E5%9B%BE%E5%BA%8A/2020-05-05-aDnrGdGPIu.png" alt="image" loading="lazy"></figure>
-<p>我的ECS是30M的带宽，所以我监控设置到了25M，如果长时间跑满带宽，那就得排查问题了</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[新开始——专注于写文]]></title>
-        <id>https://blog.boydream.top/post/t-9AkWsU7/</id>
-        <link href="https://blog.boydream.top/post/t-9AkWsU7/">
-        </link>
-        <updated>2020-05-04T22:25:54.000Z</updated>
-        <summary type="html"><![CDATA[<p>这次一定开始单纯的写文，不折腾其他花里胡哨的了</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>这次一定开始单纯的写文，不折腾其他花里胡哨的了</p>
-<!-- more -->
-<h2 id="1-gridea的简单介绍">1、Gridea的简单介绍</h2>
-<p>想看介绍就去<a href="https://gridea.dev/">官网</a>看，我复制粘贴很麻烦的。</p>
-<h2 id="2-使用体验">2、使用体验</h2>
-<p>就我个人的使用体验来看，确实很nice。和其他博客软件（比如wordpress）相比，Gridea非常的轻量，简单得就像个记事本，它确实也就是个带git功能的记事本，外加亿点点功能。</p>
-<p>妈的，早知道就不充映像笔记的会员了。。。</p>
-<h2 id="3-吐槽">3、吐槽</h2>
-<p><img src="https://drive01.vpscloud.club/api/files/onedrive/%E5%9B%BE%E5%BA%8A/Gridea_WgepPCx1uD.png" alt="image" loading="lazy"><br>
-红框这个地方，如果你设置好了自定义域名，那么你一定得给他修改过来，而不是按网上那些老旧的教程所说，填上你原来的 <code>*github.io</code> 这样的域名</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://blog.boydream.top/post/hello-gridea/</id>
-        <link href="https://blog.boydream.top/post/hello-gridea/">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+<p>我这篇文章就是写在夜里，我也不知道明早起来我是不是又会走原路，但必须要承认的一点就是：我就是个普通人。<br>
+普通的家庭，普通的大学、普通的相貌、普通的人生？</p>
+<p>我想做出改变，但总是缺乏行动力，或者说自律。<br>
+我想要高薪的工作，但我发现我的能力不足以撑起我的欲望。<br>
+我想改变一下，我想再坚持一下。</p>
 ]]></content>
     </entry>
 </feed>
