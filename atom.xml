@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.boydream.top</id>
     <title>Boy&apos;s Dream</title>
-    <updated>2020-05-23T12:54:23.308Z</updated>
+    <updated>2020-05-24T10:38:00.972Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.boydream.top"/>
     <link rel="self" href="https://blog.boydream.top/atom.xml"/>
@@ -10,6 +10,44 @@
     <logo>https://blog.boydream.top/images/avatar.png</logo>
     <icon>https://blog.boydream.top/favicon.ico</icon>
     <rights>All rights reserved 2020, Boy&apos;s Dream</rights>
+    <entry>
+        <title type="html"><![CDATA[批量创建用户]]></title>
+        <id>https://blog.boydream.top/post/pi-liang-chuang-jian-yong-hu/</id>
+        <link href="https://blog.boydream.top/post/pi-liang-chuang-jian-yong-hu/">
+        </link>
+        <updated>2020-05-24T10:21:26.000Z</updated>
+        <summary type="html"><![CDATA[<p>要求：批量创建10个用户stu01-stu10，并且设置随机8位密码，要求：不能用shell循环（例如：for,while等），只能用linux命令及管道实现。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>要求：批量创建10个用户stu01-stu10，并且设置随机8位密码，要求：不能用shell循环（例如：for,while等），只能用linux命令及管道实现。</p>
+<!-- more -->
+<p>题目来源：<a href="https://blog.51cto.com/oldboy/1608552">https://blog.51cto.com/oldboy/1608552</a><br>
+我只对里面提出的第一种解法做了一些自己的解读，其他的大佬都挺厉害的👍</p>
+<pre><code>echo stu{01..10}|tr &quot; &quot; &quot;\n&quot;|sed -r 's#(.*)#useradd \1 ;  pass=$((RANDOM+10000000)); echo &quot;$pass&quot;|passwd --stdin \1; echo -e &quot;\1  \t `echo &quot;$pass&quot;`&quot;&gt;&gt;/tmp/oldboy.log#g'|bash
+</code></pre>
+<p>解析</p>
+<pre><code># 生成了stu01 stu02 ... stu10这样的中间使用空格隔开了的一行
+echo stu{01..10}
+
+# 将前面生成的一行中的空格转变成回车，也就是换行了
+tr &quot; &quot; &quot;\n&quot;  
+
+# 这一句很长，不细看真容易看混，单独标注出来就好看多了
+sed -r 's#(.*)#useradd \1 ;  pass=$((RANDOM+10000000)); echo &quot;$pass&quot;|passwd --stdin \1; echo -e &quot;\1  \t `echo &quot;$pass&quot;`&quot;&gt;&gt;/tmp/oldboy.log#g'|bash
+
+# 这里是生成随机密码，RANDOM是系统自带的一个随机变量，每次echo $RANDOM数值都是不一样的
+pass=$((RANDOM+10000000)); echo &quot;$pass&quot;
+
+# 最后实际执行的命令长这样
+useradd stu01;
+echo $pass | passwd --stdin stu01;
+echo -e &quot;\1 \t `echo &quot;$pass&quot;`&quot;&gt;&gt;/tmp/oldboy.log
+
+# \1从始至终都是代表着stu{01..10}生成转化后的那一个个用户名
+</code></pre>
+<p>就这么一道题，还折腾了我好久。。。主要是一直没找到<code>s###g</code>这个最后的<code>#</code>号在哪，后来一看，TMD。</p>
+<p>解决后还是觉得自己挺牛批的，哈哈。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[21岁的我，是时候做出改变了]]></title>
         <id>https://blog.boydream.top/post/21-sui-de-wo-shi-shi-hou-zuo-chu-gai-bian-liao/</id>
