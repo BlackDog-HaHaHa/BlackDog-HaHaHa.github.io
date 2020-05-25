@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.boydream.top</id>
     <title>Boy&apos;s Dream</title>
-    <updated>2020-05-24T10:41:17.862Z</updated>
+    <updated>2020-05-25T11:30:41.284Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.boydream.top"/>
     <link rel="self" href="https://blog.boydream.top/atom.xml"/>
@@ -10,6 +10,26 @@
     <logo>https://blog.boydream.top/images/avatar.png</logo>
     <icon>https://blog.boydream.top/favicon.ico</icon>
     <rights>All rights reserved 2020, Boy&apos;s Dream</rights>
+    <entry>
+        <title type="html"><![CDATA[开挂般的答辩]]></title>
+        <id>https://blog.boydream.top/post/kai-gua-ban-de-da-bian/</id>
+        <link href="https://blog.boydream.top/post/kai-gua-ban-de-da-bian/">
+        </link>
+        <updated>2020-05-25T11:24:42.000Z</updated>
+        <summary type="html"><![CDATA[<p>我最牛逼！<br>
+我最牛逼！<br>
+我最牛逼！</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>我最牛逼！<br>
+我最牛逼！<br>
+我最牛逼！</p>
+<!-- more -->
+<p>答辩前：妈的，好紧张啊<br>
+答辩中：……<br>
+答辩后：？？？</p>
+<p>不管怎么说，过了就是好事，接下来就是找工作了，哈哈😊</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[批量创建用户]]></title>
         <id>https://blog.boydream.top/post/pi-liang-chuang-jian-yong-hu/</id>
